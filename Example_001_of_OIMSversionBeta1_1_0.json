@@ -1,0 +1,270 @@
+{
+  "Metadata_schema": [
+     {
+        "SchemaName": "OIMS",
+        "SchemaType": "EntityMetaData"
+        "SchemaTypeVersion": "Beta 1.1.1",
+        "SchemaURL": "https://github.com/GideonKruseman/CGIAR_BigData_metadata_schema/tree/master/StructureOIMSversionBeta1_1_1",
+        "SchemaDocumentation_URL": "",
+     }
+  ],
+  "MetadataName":"Example_002_of_OIMSversionBeta1_1_0.json"
+  "MetadataVersion": [
+     {
+        "CurrentVersion":1,
+        "MetadataVersionState":"restricted"
+     }
+  ],
+  "DataEntity": [
+     {
+        "OIMSDataEntityIdentification": [
+           {
+              "OIMSuser":1,
+              "OIMSinternalID": 1,
+              "OIMSID":"1/1",
+              "DataEntityTypology":  [
+                 {
+                    "DatEntityTypeLevel":"primary"
+                    "DataEntityType":"Collection",
+                 }
+               ]
+              "Description":"Collection of data sets related to SIMLESA: Sustainable Intensification of Maize-Legume systems in Eastern and Southern Africa"
+           }
+        ],
+        "Parentage": [
+           {
+              "parent":"-99"
+           }
+
+        ],
+        "OtherMetaData": [
+           {
+              "SchemaType":"DescriptiveMetadata",
+              "OtherMetaDataURL":"https://github.com/GideonKruseman/CGIAR_BigData_metadata_schema/tree/master/Example_002_of_OIMSversionBeta1_1_0.json"
+           }
+        ]
+     },
+     {
+        "OIMSDataEntityIdentification": [
+           {
+              "OIMSuser":1,
+              "OIMSinternalID": 2,
+              "OIMSID":"1/2",
+              "DataEntityTypology":  [
+                 {
+                    "DatEntityTypeLevel":"primary"
+                    "DataEntityType":"Collection",
+                 }
+               ]
+               "Description":"Collection of socio-economic data sets related to SIMLESA: Sustainable Intensification of Maize-Legume systems in Eastern and Southern Africa"
+           }
+        ],
+        "Parentage": [
+           {
+              "parent":"1/1"
+           }
+
+        ],
+        "OtherMetaData": [
+           {
+              "SchemaType":"DescriptiveMetadata",
+              "OtherMetaDataURL":"https://github.com/GideonKruseman/CGIAR_BigData_metadata_schema/tree/master/Example_003_of_OIMSversionBeta1_1_0.json"
+           }
+        ]
+     },
+     {
+        "OIMSDataEntityIdentification": [
+           {
+              "OIMSuser":1,
+              "OIMSinternalID": 3,
+              "OIMSID":"1/3",
+              "DataEntityTypology":  [
+                 {
+                    "DatEntityTypeLevel":"primary"
+                    "DataEntityType":"Collection",
+                 },
+                 {
+                    "DatEntityTypeLevel":"secondary",
+                    "DataEntityType":"DataSet",
+                 }
+              ]
+              "Description":"Pathways to sustainable intensification in Eastern and Southern Africa - general overview"
+           }
+        ],
+        "Parentage": [
+           {
+              "parent":"1/2"
+           }
+
+        ],
+        "OtherMetaData": [
+           {
+              "SchemaType":"MixedMetaData",
+              "Metadata_schema": [
+                 {
+                    "SchemaName": "CIMMYTDV",
+                    "SchemaType": "MixedMetaData",
+                    "SchemaTypeVersion": "1.0",
+                    "SchemaURL": "https://github.com/GideonKruseman/CGIAR_BigData_metadata_schema/tree/master/CIMMYTDV_1_0.json",
+                    "SchemaDocumentation_URL": [
+                        ""
+                    ]
+                 }
+              ],
+              "MetadataName":"Pathways to sustainable intensification in Eastern and Southern Africa - general overview",
+              "MetaDataURL":"https://data.cimmyt.org/api/datasets/export?exporter=dataverse_json&persistentId=hdl%3A11529/10745"
+           }
+        ]
+     },
+     {
+        "OIMSDataEntityIdentification": [
+           {
+              "OIMSuser":1,
+              "OIMSinternalID": 4,
+              "OIMSID":"1/4",
+              "DataEntityTypology":  [
+                 {
+                    "DatEntityTypeLevel":"primary"
+                    "DataEntityType":"Collection",
+                 },
+                 {
+                    "DatEntityTypeLevel":"secondary",
+                    "DataEntityType":"File",
+                 }
+              ]
+              "Description":"Pathways to sustainable intensification in Eastern and Southern Africa.pdf"
+           }
+        ],
+        "Parentage": [
+           {
+              "parent":"1/3"
+           }
+
+        ],
+        "OtherMetaData": [
+           {
+              "SchemaType":"MixedMetaData",
+
+              "Metadata_schema": [
+                 {
+                    "SchemaName": "CIMMYTDV",
+                    "SchemaType": "MixedMetaData",
+                    "SchemaTypeVersion": "1.0",
+                    "SchemaURL": "https://github.com/GideonKruseman/CGIAR_BigData_metadata_schema/tree/master/CIMMYTDV_1_0.json",
+                    "SchemaDocumentation_URL": [
+                        ""
+                    ]
+                 }
+              ],
+              "MetadataName":"Pathways to sustainable intensification in Eastern and Southern Africa - general overview",
+              "MetaDataURL": [
+                 {
+                    "partial":true,
+                    "MetaDataURL":"https://data.cimmyt.org/api/datasets/export?exporter=dataverse_json&persistentId=hdl%3A11529/10745",
+                    "StartLine":585
+                    "EndLine":608
+                 }
+              ]
+           }
+        ]
+     },
+     {
+        "OIMSDataEntityIdentification": [
+           {
+              "OIMSuser":1,
+              "OIMSinternalID": 5,
+              "OIMSID":"1/5",
+              "DataEntityTypology":  [
+                 {
+                    "DatEntityTypeLevel":"primary"
+                    "DataEntityType":"Collection",
+                 },
+                 {
+                    "DatEntityTypeLevel":"secondary",
+                    "DataEntityType":"File",
+                 }
+              ]
+              "Description":"Sampling methods _ SIMLESA surveys.docx"
+           }
+        ],
+        "Parentage": [
+           {
+              "parent":"1/3"
+           }
+
+        ],
+        "OtherMetaData": [
+           {
+              "SchemaType":"MixedMetaData",
+
+              "Metadata_schema": [
+                 {
+                    "SchemaName": "CIMMYTDV",
+                    "SchemaType": "MixedMetaData",
+                    "SchemaTypeVersion": "1.0",
+                    "SchemaURL": "https://github.com/GideonKruseman/CGIAR_BigData_metadata_schema/tree/master/CIMMYTDV_1_0.json",
+                    "SchemaDocumentation_URL": [
+                        ""
+                    ]
+                 }
+              ],
+              "MetadataName":"Pathways to sustainable intensification in Eastern and Southern Africa - general overview",
+              "MetaDataURL": [
+                 {
+                    "partial":true,
+                    "MetaDataURL":"https://data.cimmyt.org/api/datasets/export?exporter=dataverse_json&persistentId=hdl%3A11529/10745",
+                    "StartLine":609
+                    "EndLine":632
+                 }
+              ]
+           }
+        ]
+     },
+     {
+        "OIMSDataEntityIdentification": [
+           {
+              "OIMSuser":1,
+              "OIMSinternalID": 6,
+              "OIMSID":"1/6",
+              "DataEntityTypology":  [
+                 {
+                    "DatEntityTypeLevel":"primary"
+                    "DataEntityType":"Dataset",
+                 }
+              ]
+              "Description":"Pathways to sustainable intensification in Eastern and Southern Africa - Ethiopia 2010"
+           }
+        ],
+        "Parentage": [
+           {
+              "parent":"1/2"
+           }
+
+        ],
+        "OtherMetaData": [
+           {
+              "SchemaType":"MixedMetaData",
+
+              "Metadata_schema": [
+                 {
+                    "SchemaName": "CIMMYTDV",
+                    "SchemaType": "MixedMetaData",
+                    "SchemaTypeVersion": "1.0",
+                    "SchemaURL": "https://github.com/GideonKruseman/CGIAR_BigData_metadata_schema/tree/master/CIMMYTDV_1_0.json",
+                    "SchemaDocumentation_URL": [
+                        ""
+                    ]
+                 }
+              ],
+              "MetadataName":"Pathways to sustainable intensification in Eastern and Southern Africa - general overview",
+              "MetaDataURL": [
+                 {
+                    "partial":false,
+                    "MetaDataURL":"https://data.cimmyt.org/api/datasets/export?exporter=dataverse_json&persistentId=hdl%3A11529/10746",
+                 }
+              ]
+           }
+        ]
+     },
+  ]
+}
